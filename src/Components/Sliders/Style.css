@@ -1,0 +1,140 @@
+.product_carousel{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #fff;
+    padding: 0px 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.carousel{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 30px;
+    padding: 20px 0px; 
+    
+}
+
+.carousel .carousel_card{
+    width: 200px;
+    height: auto;
+    position: relative;
+    background-color: #fff;
+    position: relative;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 2px;
+    transition: 0.5s linear;
+    border: 1px solid #ececec;
+    cursor: pointer;
+}
+
+.carousel_card .hover_btns{
+    position: absolute;
+    top: 15px;
+    right: -100px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease;
+}
+
+.carousel_card:hover .hover_btns{
+    right: 10px;
+    opacity: 9;
+    visibility: visible;
+}
+
+.carousel_card .hover_btns a{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   height: 30px;
+   width:40px;
+   background-color: #fff;
+   justify-content: center;
+   margin-bottom: 5px;
+   border-radius: 2px;
+   box-shadow: rgba(0, 0, 0, 0.171) 0px 0px 3px 0px;
+}
+
+.carousel .carousel_card:hover {
+    box-shadow: rgba(0, 0, 0, 0.171) 0px 5px 25px 0px;
+
+}
+
+.carousel_card .image{
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+.carousel_card .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.carousel_card  .product_info {
+    padding: 8px 2px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #fff;
+    transition: 0.5s ease;
+}
+
+.carousel .carousel_card:hover .product_info {
+    transform: translateY(-15px);
+}
+
+.carousel_card  .product_info .brand {
+    color: crimson;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.carousel_card  .product_info .title {
+    line-height: 16px;
+    font-size: 17px;
+    color: #000;
+    padding: 5px 0px 10px 0px;
+    transition: 0.5s ease-in-out;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.carousel .carousel_card :hover .title {
+    color: cornflowerblue;
+}
+
+.carousel_card   .product_info .price_box {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    position: relative;
+}
+
+.carousel_card  .product_info .price_box .price {
+    font-weight: 500;
+    color: #000;
+    font-size: 20px;
+}
+
+.carousel_card  .product_info .price_box .original_price {
+    color: #a0a0a0;
+    font-size: 17px;
+    text-decoration: line-through;
+}
+
+.carousel_card  .product_info .price_box .discount {
+    font-weight: 500;
+    color: green;
+    font-size: 15px;
+}
