@@ -1,6 +1,6 @@
 .products_grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
     gap: 10px;
     position: relative;
     padding: 20px 10px;
@@ -10,7 +10,7 @@
 
 
 .products_grid .card {
-    width: 230px;
+    width: 245px;
     height: auto;
     position: relative;
     background-color: #fff;
@@ -95,10 +95,10 @@
 
 .product_info .title {
     line-height: 16px;
-    font-size: 17px;
+    font-size: 16px !important;
     color: #000;
-    padding: 5px 0px 10px 0px;
     transition: 0.5s ease-in-out;
+    margin-bottom: 6px;
     width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -146,7 +146,7 @@
     display: flex;
     align-items: center;
     column-gap: 4px;
-    background-color: orangered;
+    background-color: blueviolet;
     padding: 2px 6px;
     font-weight: 500;
     color: #fff;

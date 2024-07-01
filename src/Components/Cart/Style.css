@@ -1,0 +1,187 @@
+.cart_section {
+    width: 98%;
+    margin: 20px auto;
+    position: relative;
+    display: flex;
+    gap: 50px;
+}
+
+.cart_section .cart_items {
+    width: 70%;
+    height: auto;
+    position: relative;
+}
+
+.cart_items .top_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.090) 0px 0px 15px 0px;
+    background-color: #fff;
+    height: 50px;
+}
+
+.cart_items .top_header h1{
+    font-weight: 500;
+    font-size: 20px;
+    color: #202020;
+}
+
+.cart_items .top_header .address{
+    background-color: #9155fd;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 6px 17px;
+    font-weight: 500;
+    border-radius: 2px;
+    box-shadow: rgb(145, 85, 253,0.090) 0px 0px 15px 0px;
+}
+
+.cart_items .cart_card {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.090) 0px 0px 15px 0px;
+    padding: 10px;
+    margin: 10px 0px;
+    display: flex;
+    gap: 20px;
+    transition: 0.5s linear;
+    cursor: pointer;
+}
+.cart_items .cart_card:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 10px 10px 15px 0px;
+
+}
+.cart_items .cart_card .image{
+    width: 130px;
+    height: 130px;
+    position: relative;
+    background-color: #892be21c;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.cart_items .cart_card .image img{
+    width: 100%;
+    height: 99%;
+    border-radius: 3px;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.cart_items .cart_card .product_data{
+    position: relative;
+    flex-grow: 1;
+}
+
+.cart_card .product_data .name{
+    font-size: 17px;
+    font-weight: 500;
+    color: #202020;
+}
+
+.cart_card .product_data .brand{
+    font-size: 15px;
+    font-weight: 500;
+    color: #646464;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.product_data .price_data{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.product_data .price_data .discounted_price{
+    color: teal;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.product_data .price_data .discounted_persent{
+    color: green;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.product_data .price_data .price{
+    color: #646464;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.product_data .buttons{
+    display: flex;
+    align-items: center;
+     column-gap: 15px;
+     margin-top: 8px;
+}
+
+.product_data .buttons button{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.090) 0px 0px 15px 0px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+/* Price Details */
+
+.cart_section .price_details {
+    flex-grow: 1;
+    height:390px;
+    position: relative;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.090) 0px 0px 15px 0px;
+}
+
+.price_details h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #202020;
+}
+.price_details .lines{
+    width: 100%;
+    background-color: #d1d1d1;
+    height: 1px;
+    margin: 10px 0px;
+}
+
+ .price_details .section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin: 20px 0px;
+}
+
+.price_details .section .text{
+    font-size: 17px;
+    color: #202020;
+}
+
+.price_details .section .count{
+    font-size: 17px;
+    color: #202020;
+}
+
+.price_details .section .bold{
+    font-weight: 500;
+}
+.price_details .section .success{
+    color: #0ea800;
+}

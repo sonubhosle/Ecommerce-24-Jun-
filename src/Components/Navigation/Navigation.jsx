@@ -6,6 +6,8 @@ import { navigation } from './navigation'
 import { Avatar, Button, Menu, MenuItem } from '@mui/material'
 import { deepPurple } from '@mui/material/colors'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
+import { IoLogoMastodon } from "react-icons/io5";
+
 import './Style.css'
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -200,7 +202,9 @@ const Navigation = () => {
 
               {/* Logo */}
               <div className="ml-4 flex lg:ml-0">
-                 <Link to='/' className='text-xl uppercase font-semibold  text-purple-900'>Store</Link>
+                <div className="logo">
+                      <Link to='/'> <p><IoLogoMastodon  /> </p>Marketo </Link>
+                </div>
               </div>
 
               {/* Flyout menus */}

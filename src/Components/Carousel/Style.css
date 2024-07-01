@@ -4,6 +4,7 @@
     position: relative;
     border-radius: 3px;
     overflow: hidden;
+    margin: 10px 0px 0px 0px;
   }
   
   .banner_section .img{
